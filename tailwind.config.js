@@ -49,8 +49,23 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
-  		}
+  			},
+			bgSoft: '#292E36',
+			highlight: '#b7935d',
+			highl: '#e1b168',
+			textSoft: "#c8cacc",
+  		},
+		fontFamily: {
+			Heading: 'Cormorant Infant, serif',
+			body: 'Josefin Sans, sans-serif',
+		},
+		screens: {
+			'xxl': {'max': '1279px'},
+			'lgg': {'max': '1024px'},
+			'mdd': {'max': '820px'},
+			'ssm': {'max': '639px'},
+			'sssm': {'max': '390px'},
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
