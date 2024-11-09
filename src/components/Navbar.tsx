@@ -39,10 +39,10 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="bg-bgSoft w-full py-[1.2rem]">
+    <div className="bg-bgSoft w-full pt-[1.2rem]">
       <div className="w-full flex justify-center items-center">
         {/* Top */}
-        <div className="flex justify-between items-center pad w-[75%] xl:max-w-[1124px]">
+        <div className="flex justify-between items-center pad wid xl:max-w-[1124px]">
           <Button className="bg-transparent text-white border border-highlight capitalize px-4 py-2 text-sm hover:scale-105 duration-500 rounded-none">
             call +233543576794
           </Button>
@@ -59,8 +59,8 @@ const Navbar = () => {
       </div>
       
       {/* Nav */}
-      <div className="border border-[#5c6168] mt-[30px] h-[50px] text-[14px] flex items-center justify-center gap-[30px]">
-        <div className="flex justify-between items-center w-[75%] xl:max-w-[1124px]">
+      <div className="border-y border-[#5c6168] mt-[30px] h-[50px] text-[14px] flex items-center justify-center gap-[30px] relative z-20">
+        <div className="flex justify-between items-center wid xl:max-w-[1124px]">
           <div className="flex gap-[30px]">
             {nav.map((item) => (
               <NavLink

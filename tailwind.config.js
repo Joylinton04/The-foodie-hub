@@ -54,6 +54,7 @@ export default {
 			highlight: '#b7935d',
 			highl: '#e1b168',
 			textSoft: "#c8cacc",
+			textSofter: '#716e6d',
   		},
 		fontFamily: {
 			Heading: 'Cormorant Infant, serif',

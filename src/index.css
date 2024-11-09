@@ -76,9 +76,8 @@ body {
   padding: 0 30px;
 }
 
-.wid60 {
-  width: 60%;
-  color: #5c6168;
+.wid {
+  width: 75%;
 }
 
 .active {
