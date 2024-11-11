@@ -83,3 +83,15 @@ body {
 .active {
   color: #b7935d;
 }
+
+
+@media (max-width: 1024px) {
+    .wid {
+      width: 95%;
+    }
+}
+@media (max-width: 639px) {
+  .pad {
+    padding: 0 10px;
+  }
+}

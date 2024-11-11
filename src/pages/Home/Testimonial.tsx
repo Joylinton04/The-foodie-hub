@@ -1,3 +1,5 @@
+import CarouselC from "./CarouselC";
+
 const Testimonial = () => {
   return (
     <div className="wid xl:max-w-[1124px] flex flex-col gap-1">
@@ -10,6 +12,7 @@ const Testimonial = () => {
           <p className="text-textSoft">We love to hear from customers, so please leave a comment or say hello in an email.</p>
         </div>
       </div>
+      <CarouselC/>
     </div>
   );
 };

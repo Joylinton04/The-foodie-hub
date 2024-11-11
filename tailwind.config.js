@@ -51,6 +51,7 @@ export default {
   				'5': 'hsl(var(--chart-5))'
   			},
 			bgSoft: '#292E36',
+			bgSofter: '#343942',
 			highlight: '#b7935d',
 			highl: '#e1b168',
 			textSoft: "#c8cacc",
