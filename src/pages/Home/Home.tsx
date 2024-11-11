@@ -268,7 +268,7 @@ const Home = () => {
             <div className="font-Heading font-bold text-[20px]">
               Our special Offer dishes
             </div>
-            <p className="text-xs w-[40%] text-center text-textSofter">
+            <p className="text-xs w-[40%] text-center text-textSofter ssm:w-[95%]">
               Lorem Ipsum is that it has a more-or-less normal distribution of
               letters, as opposed to using 'Content here, content making.
             </p>
