@@ -17,7 +17,7 @@ const Header = () => {
             View Menu
           </Button>
         </div>
-        <div className="xl:w-[250px] sm:w-[410px] mt-24 h-full mdd:mt-16 mdd:w-[380px] ssm:w-[260px] ssm:-mt-4">{/* sm:mt-[55px] */}
+        <div className="w-[250px] sm:w-[410px] mt-24 h-full mdd:mt-16 mdd:w-[380px] ssm:w-[260px] ssm:-mt-4">{/* sm:mt-[55px] */}
           <img
             src={hero}
             className="w-full h-full object-cover object-center"
