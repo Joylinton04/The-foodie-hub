@@ -15,7 +15,7 @@ const Footer = () => {
           <Button className="bg-transparent text-white border border-highlight capitalize px-4 py-2 text-sm hover:scale-105 duration-500 rounded-none ssm:hidden">
             call +233543576794
           </Button>
-          <div className="h-[90px]">
+          <div className="h-[90px] mdd:h-[50px] mdd:w-[100px]">
             <img
               src={logo}
               className="w-full h-full object-cover object-center"
