@@ -112,7 +112,7 @@ const Navbar = () => {
               <NavLink
                 to={item.to}
                 key={item.label}
-                className="text-textSoft hover:text-highlight transition-colors duration-500"
+                className="text-white hover:text-highlight transition-colors duration-500"
               >
                 {item.label}
               </NavLink>
