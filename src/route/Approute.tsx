@@ -1,8 +1,9 @@
+import { createBrowserRouter } from "react-router-dom";
 import Home from "@/pages/Home/Home";
 import Layout from "@/layout/Layout";
-import { createBrowserRouter } from "react-router-dom";
 import About from "@/pages/About";
 import Menu from "@/pages/Menu";
+import Reservation from "@/pages/Reservation";
 
 const Approute = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const Approute = createBrowserRouter([
             {
                 path: "menu",
                 element: <Menu/>
+            },
+            {
+                path: "reservation",
+                element: <Reservation/>
             },
         ]
     }

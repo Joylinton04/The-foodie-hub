@@ -11,15 +11,11 @@ import vegan from "../assets/about/vegan-cuisine.svg";
 import akua from "../assets/about/avroko_chef.png";
 import aristo from "../assets/about/Aristo.jpg";
 import adu from "../assets/about/Adu Atakora.jpg";
-import gall1 from "../assets/about/gallery_img1.png";
-import gall2 from "../assets/about/gallery_2.png";
-import gall3 from "../assets/about/gallery_image3.png";
-import gall4 from "../assets/about/gallery_img4.png";
-import gall5 from "../assets/about/gallery_img5.png";
 import andy from "../assets/about/Andy.png";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Testimonial from "./Home/Testimonial";
+import Gallery from "@/components/Gallery";
 
 const About = () => {
   return (
@@ -170,67 +166,64 @@ const About = () => {
       <div className="flex justify-center items-center py-[80px]">
         <div className="wid xl:max-w-[1124px] flex flex-col gap-6">
           <div className="flex justify-center items-center flex-col">
-            <div className="w-max border-y-2 border-highl uppercase px-1 py-[0.1rem] text-xs">Team</div>
-            <div className="font-Heading font-bold text-[20px]">Meet Our Professional Chefs</div>
+            <div className="w-max border-y-2 border-highl uppercase px-1 py-[0.1rem] text-xs">
+              Team
+            </div>
+            <div className="font-Heading font-bold text-[20px]">
+              Meet Our Professional Chefs
+            </div>
           </div>
 
           <div className="flex gap-4 justify-center ssm:flex-wrap">
             <div className="flex flex-col">
-              <div><img src={akua} className="w-[200px]"/></div>
+              <div>
+                <img src={akua} className="w-[200px]" />
+              </div>
               <div className="text-center">
                 <h1 className="font-bold font-Heading text-[18px]">Akua</h1>
                 <p className="text-xs">Chef</p>
               </div>
             </div>
             <div className="flex flex-col">
-              <div><img src={andy} className="w-[200px]"/></div>
+              <div>
+                <img src={andy} className="w-[200px]" />
+              </div>
               <div className="text-center">
                 <h1 className="font-bold font-Heading text-[18px]">Andy</h1>
                 <p className="text-xs">Chef</p>
               </div>
             </div>
             <div className="flex flex-col">
-              <div><img src={aristo} className="w-[200px]"/></div>
+              <div>
+                <img src={aristo} className="w-[200px]" />
+              </div>
               <div className="text-center">
                 <h1 className="font-bold font-Heading text-[18px]">Aristo</h1>
                 <p className="text-xs">Senior chef</p>
               </div>
             </div>
             <div className="flex flex-col">
-              <div><img src={adu} className="w-[200px]"/></div>
+              <div>
+                <img src={adu} className="w-[200px]" />
+              </div>
               <div className="text-center">
-                <h1 className="font-bold font-Heading text-[18px]">Adu Atakora</h1>
+                <h1 className="font-bold font-Heading text-[18px]">
+                  Adu Atakora
+                </h1>
                 <p className="text-xs">Senior chef</p>
               </div>
             </div>
-
-        </div>
+          </div>
         </div>
       </div>
 
-    {/* Section 4 */}
-    <div className="bg-bgSoft text-white flex justify-center items-center py-[60px]">
+      {/* Section 4 */}
+      <div className="bg-bgSoft text-white flex justify-center items-center py-[60px]">
         <Testimonial />
-    </div>
-
-    {/* section 5 */}
-    <div className="flex justify-center items-center py-[40px]">
-      <div className="wid xl:max-w-[1124px] flex flex-col gap-6 ssm:gap-x-0">
-          <div className="flex justify-center items-center flex-col">
-            <div className="w-max border-y-2 border-highl uppercase px-1 py-[0.1rem] text-xs">gallery</div>
-            <div className="font-Heading font-bold text-[20px]">What We Make</div>
-          </div>
-          <div className="gridlayout ssm:grid-cols-2 ssm:gap-2">
-            <div className="w-full min-h-[180px] ssm:col-span-2"><img src={gall1} className="w-full h-full object-cover object-center"/></div>
-            <div className="w-full min-h-[180px] row-span-2 col-span-2 ssm:row-span-1 ssm:col-span-1"><img src={gall2} className="w-full h-full object-cover object-center"/></div>
-            <div className="w-full min-h-[180px]"><img src={gall3} className="w-full h-full object-cover object-center"/></div>
-            <div className="w-full min-h-[180px]"><img src={gall4} className="w-full h-full object-cover object-center"/></div>
-            <div className="w-full min-h-[180px]"><img src={gall5} className="w-full h-full object-cover object-center"/></div>
-          </div>
       </div>
 
-    </div>
-
+      {/* section 5 */}
+      <Gallery/>
     </div>
   );
 };
