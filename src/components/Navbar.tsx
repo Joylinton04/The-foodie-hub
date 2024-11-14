@@ -94,6 +94,18 @@ const Navbar = () => {
             >
               <Link to="/menu">Menu</Link>
             </li>
+            <li
+              onClick={() => toggleMenu()}
+              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Link to="/reservation">Reservation</Link>
+            </li>
+            <li
+              onClick={() => toggleMenu()}
+              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
+            >
+              <Link to="/gallery">Gallery</Link>
+            </li>
           </ul>
           <div className="flex gap-1 text-white cursor-pointer pad mb-16">
             <FacebookIcon />

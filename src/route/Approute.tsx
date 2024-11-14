@@ -4,6 +4,7 @@ import Layout from "@/layout/Layout";
 import About from "@/pages/About";
 import Menu from "@/pages/Menu";
 import Reservation from "@/pages/Reservation";
+import Gallery from "@/pages/Gallery";
 
 const Approute = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const Approute = createBrowserRouter([
             {
                 path: "reservation",
                 element: <Reservation/>
+            },
+            {
+                path: "gallery",
+                element: <Gallery/>
             },
         ]
     }
