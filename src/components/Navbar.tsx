@@ -31,10 +31,6 @@ const Navbar = () => {
       to: "/reservation",
     },
     {
-      label: "Blog",
-      to: "/blog",
-    },
-    {
       label: "Gallery",
       to: "/gallery",
     },
@@ -76,36 +72,14 @@ const Navbar = () => {
       {menuOpen && (
         <div className="bg-[#1f242c] text-white fixed top-0 left-0 h-full w-[280px] sm:hidden z-40 flex flex-col justify-between">
           <ul className="flex flex-col gap-6 text-[#ccc] pad mt-[55px] text-lg">
-            <li
-              onClick={() => toggleMenu()}
-              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
-            >
-              <Link to="/">Home</Link>
-            </li>
-            <li
-              onClick={() => toggleMenu()}
-              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
-            >
-              <Link to="/about">About</Link>
-            </li>
-            <li
-              onClick={() => toggleMenu()}
-              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
-            >
-              <Link to="/menu">Menu</Link>
-            </li>
-            <li
-              onClick={() => toggleMenu()}
-              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
-            >
-              <Link to="/reservation">Reservation</Link>
-            </li>
-            <li
-              onClick={() => toggleMenu()}
-              className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
-            >
-              <Link to="/gallery">Gallery</Link>
-            </li>
+            {nav.map(nav => (
+                <li
+                onClick={() => toggleMenu()}
+                className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
+              >
+                <Link to={nav.to}>{nav.label}</Link>
+              </li>
+            ))}
           </ul>
           <div className="flex gap-1 text-white cursor-pointer pad mb-16">
             <FacebookIcon />

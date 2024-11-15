@@ -98,7 +98,7 @@ const About = () => {
                 <div className="text-xs text-textSoft text-center">
                   Professional consider everyone probls small niche friendly.
                 </div>
-                <Link to="/dishes" className="font-semibold text-sm text-highl">
+                <Link to="/" className="font-semibold text-sm text-highl">
                   See more
                 </Link>
               </div>
@@ -117,7 +117,7 @@ const About = () => {
                 <div className="text-xs text-textSoft text-center">
                   Professional consider everyone probls small niche friendly.
                 </div>
-                <Link to="/dishes" className="font-semibold text-sm text-highl">
+                <Link to="/" className="font-semibold text-sm text-highl">
                   See more
                 </Link>
               </div>
@@ -136,7 +136,7 @@ const About = () => {
                 <div className="text-xs text-textSoft text-center">
                   Professional consider everyone probls small niche friendly.
                 </div>
-                <Link to="/dishes" className="font-semibold text-sm text-highl">
+                <Link to="/" className="font-semibold text-sm text-highl">
                   See more
                 </Link>
               </div>
@@ -152,7 +152,7 @@ const About = () => {
                 <div className="text-xs text-textSoft text-center">
                   Professional consider everyone probls small niche friendly.
                 </div>
-                <Link to="/dishes" className="font-semibold text-sm text-highl">
+                <Link to="/" className="font-semibold text-sm text-highl">
                   See more
                 </Link>
               </div>

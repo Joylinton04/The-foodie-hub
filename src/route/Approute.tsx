@@ -5,6 +5,7 @@ import About from "@/pages/About";
 import Menu from "@/pages/Menu";
 import Reservation from "@/pages/Reservation";
 import Gallery from "@/pages/Gallery";
+import Contact from "@/pages/Contact";
 
 const Approute = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const Approute = createBrowserRouter([
             {
                 path: "gallery",
                 element: <Gallery/>
+            },
+            {
+                path: "contact",
+                element: <Contact/>
             },
         ]
     }
