@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.svg";
-import { Link, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -77,7 +77,7 @@ const Navbar = () => {
                 onClick={() => toggleMenu()}
                 className="hover:underline hover:duration-300 hover:scale-110 cursor-pointer"
               >
-                <Link to={nav.to}>{nav.label}</Link>
+                <NavLink to={nav.to}>{nav.label}</NavLink>
               </li>
             ))}
           </ul>

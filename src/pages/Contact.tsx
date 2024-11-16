@@ -30,7 +30,7 @@ const Contact = () => {
       .min(3, { message: "Subject must be at least 3 characters." }),
     phone: z
       .string()
-      .regex(/^\+?\d{10,15}$/, { message: "Invalid phone number." }), // Optional regex for phone validation
+      .regex(/^\+?\d{10,15}$/, { message: "Invalid phone number." }),
     message: z
       .string()
       .min(10, { message: "Message must be at least 10 characters." }),
